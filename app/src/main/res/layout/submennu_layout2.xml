@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#80FFFFFF"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/ranking_personal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BXH cá nhân"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/ranking_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BXH đồng đội"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/ranking_elo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BXH elo"
+        android:padding="10dp" />
+</LinearLayout>
